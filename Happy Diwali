@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Happy Diwali</title>
+    <style>
+      body {
+        background-color: #fff8dc;
+        font-family: sans-serif;
+        text-align: center;
+        padding-top: 20%;
+        color: #ff5722;
+      }
+      h1 {
+        font-size: 3em;
+        animation: glow 2s infinite alternate;
+      }
+
+      @keyframes glow {
+        from {
+          text-shadow: 0 0 10px #ffd700;
+        }
+        to {
+          text-shadow: 0 0 20px #ff4500, 0 0 30px #ff8c00;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>🎉 Happy Diwali! 🪔</h1>
+  </body>
+</html>
